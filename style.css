@@ -22,7 +22,7 @@ body{
 
 img.active{
     display: block;
-    animation: Fade 0.3s;
+    animation: Fade 1s;
 }
 
 @keyframes Fade{
