@@ -46,6 +46,9 @@ function slidePrecedent(){
 
 precedent.addEventListener('click', slidePrecedent);
 
+/* slider automatic run with setInterval */
+setInterval(slideSuivante, 1000);
+
 /* keydown touch */
 
 function keyPress(e) {
